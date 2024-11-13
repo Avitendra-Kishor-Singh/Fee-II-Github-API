@@ -1,0 +1,38 @@
+.container {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+}
+input {
+    padding: 10px;
+    width: 300px;
+}
+button {
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.user-details {
+    margin-top: 20px;
+    text-align: left;
+}
+.user-details img {
+    border-radius: 50%;
+    width: 100px;
+}
+.repo-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.repo-item {
+    background-color: orange;
+    padding: 10px;
+    margin: 5px;
+    /* border-radius: 5px; */
+    color: white;
+    cursor: pointer;
+}
